@@ -5,15 +5,7 @@
 
 // --------- My solution ---------
 
-// function sumRange(n, t = 0) {
-//     // base case
-//     if (n === 0) {
-//         console.log(t)
-//         return 
-//     }
-//     const b = t += n 
-//     sumRange(n - 1, b)
-// } 
+// function sumRange(n, t = 0) {} 
 // sumRange(3)
 
 // -----------------------------------------------------------------------------
@@ -31,12 +23,7 @@
 
 // -----------------------------------------------------------------------------
 
-// function power(base, exponent) {
-//     if (exponent === 0) {
-//         return 1
-//     }
-//     return base * power(base, exponent - 1 )
-// }
+// function power(base, exponent) {}
 // console.log(power(2, 5))
 
 // -----------------------------------------------------------------------------
@@ -48,31 +35,12 @@
 
 // factorial(5); // 5 * 4 * 3 * 2 * 1 === 120
  
-// function factorial(num) {
-
-//     if (num === 1) {
-//         return num
-//     }
-
-//     return num * factorial(num - 1)
-// }
+// function factorial(num) {}
 
 // console.log(factorial(5))
 
 // -----------------------------------------------------------------------------
 
-// Question 4: Check all values in an array
-// Write a function called all which accepts an array and a callback and returns true if every value in the array returns true when passed as parameter to the callback function
-
-// Sample:
-
-// var allAreLessThanSeven = all([1,2,9], function(num){
-// 	return num < 7;
-// });
-
-// console.log(allAreLessThanSeven); // false
-
-// -----------------------------------------------------------------------------
 
 // ASSIGNMENT 1
 // Using iteration, write a function fibs which takes a number and returns an array containing that many numbers from the fibonacci sequence. Using an example input of 8, this function should return the array [0, 1, 1, 2, 3, 5, 8, 13].
