@@ -5,14 +5,57 @@
 
 // --------- My solution ---------
 
-function sumRange(n, t = 0) {
-    // base case
-    if (n === 0) {
-        console.log(t)
-        return 
-    }
-    const b = t += n 
-    sumRange(n - 1, b)
-}
-sumRange(3)  
+// function sumRange(n, t = 0) {
+//     // base case
+//     if (n === 0) {
+//         console.log(t)
+//         return 
+//     }
+//     const b = t += n 
+//     sumRange(n - 1, b)
+// } 
+// sumRange(3)
+
+// -----------------------------------------------------------------------------
+
+// Question 2: Power function
+// Write a function called power which takes in a base and an exponent. If the exponent is 0, return 1.
+
+// Sample:
+
+// console.log(power(2, 4)); // 16
+// console.log(power(2, 3)); // 8
+// console.log(power(2, 2)); // 4 
+// console.log(power(2, 1)); // 2
+// console.log(power(2, 0)); // 1
+
+// -----------------------------------------------------------------------------
+
+// function power(base, exponent) {
+//     if (exponent === 0) {
+//         return 1
+//     }
+//     return base * power(base, exponent - 1 )
+// }
+// console.log(power(2, 5))
+
+// -----------------------------------------------------------------------------
+
+// Question 3: Calculate factorial
+// Write a function that returns the factorial of a number. As a quick refresher, a factorial of a number is the result of that number multiplied by the number before it, and the number before that number, and so on, until you reach 1. The factorial of 1 is just 1.
+
+// Sample:
+
+// factorial(5); // 5 * 4 * 3 * 2 * 1 === 120
+ 
+// function factorial(num) {
+
+//     if (num === 1) {
+//         return num
+//     }
+
+//     return num * factorial(num - 1)
+// }
+
+// console.log(factorial(5)) 
 
